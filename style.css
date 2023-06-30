@@ -1,0 +1,19 @@
+
+#nav {
+    justify-content: center;
+}
+.nav-div{
+    display: flex;
+  
+}
+
+.containe-fluid {
+    padding: 0;
+}
+
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel.item {
+    height: 70vh;
+}
+.rounded {
+    height: 200px
+}
