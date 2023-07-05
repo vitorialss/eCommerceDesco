@@ -15,5 +15,20 @@
     height: 70vh;
 }
 .rounded {
-    height: 200px
+    width: 40%;
+}
+
+
+
+#about-us {
+    display: flex;
+    width: 100%; 
+}
+
+.team-card-img {
+    height: auto;
+    width: 20%;
+    clip-path: circle(50% at 50% 50%);
+    /* border-radius: 50%; */
+
 }
