@@ -7,11 +7,32 @@
 }
 .nav-div {
   display: flex;
-  
 }
 
 .nav-link {
   color: white;
+}
+
+.d-md-block {
+  margin-bottom: 2em;
+}
+.beach h2,
+.beach p,
+.beach button {
+  color: #ff2171;
+}
+
+.jeans h2,
+.jeans p {
+  color: #16ff00;
+}
+#carouselExampleIndicators h2 {
+  font-size: 4em;
+}
+
+h2 {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
 }
 
 .containe-fluid {
@@ -45,6 +66,7 @@
 }
 .about-us-img {
   width: 50%;
+  border-radius: 5%;
 }
 #team {
   width: 100%;
@@ -100,6 +122,7 @@
 
 .team-card-name {
   margin-top: 1em;
+  font-weight: 700;
 }
 
 #products {
@@ -112,7 +135,7 @@
   );
 }
 
-#products h3 {
+#products h2 {
   text-align: center;
 }
 
@@ -174,7 +197,6 @@ footer {
 .fi {
   display: flex;
   font-size: 2em;
-  
 }
 
 .fi:hover {
@@ -182,6 +204,93 @@ footer {
 }
 
 .footer-adress {
-  font-size : 0.8em;
-  color:#595959;
+  font-size: 0.8em;
+  color: #595959;
+}
+
+@media screen and (max-width: 425px) {
+  #about-us {
+    flex-direction: column;
+    padding-left: 2em;
+  }
+
+  .about-text-box {
+    width: 100%;
+  }
+
+  .about-us-img {
+    width: 100%;
+  }
+  .team-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-card {
+    width: auto;
+  }
+
+  .products-container {
+    flex-direction: column;
+  }
+
+  .products-card {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .products-card {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  #nav a {
+    font-size: 2em;
+  }
+
+  #carouselExampleIndicators h2 {
+    font-size: 5em;
+  }
+
+  #carouselExampleIndicators p {
+    font-size: 2em;
+  }
+  #about-us {
+    justify-content: center;
+  }
+  .about-text-box {
+    width: 40%;
+  }
+
+  #about-us h2,
+  #team h2,
+  #products h2 {
+    font-size: 4em;
+  }
+  #about-us p,
+  #team p,
+  #products p {
+    font-size: 2em;
+  }
+
+  .team-card {
+    width: 33%;
+  }
+
+  .team-card-img {
+    height: 400px;
+    width: 400px;
+  }
+  .team-card-name {
+    font-size: 2.5em;
+  }
+  #footer div,
+  #footer h6 {
+    font-size: 1.5em;
+  }
+
+  #footer i {
+    font-size: 2.5em;
+  }
 }
