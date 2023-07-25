@@ -24,7 +24,8 @@
 
 .jeans h2,
 .jeans p {
-  color: #16ff00;
+  color: #ffffff;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 #carouselExampleIndicators h2 {
   font-size: 4em;
